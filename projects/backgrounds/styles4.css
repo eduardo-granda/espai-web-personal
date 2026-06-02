@@ -1,0 +1,107 @@
+/*Fet us de la IA per a codis CSS, per a generar etiquetes que millorin la visualització del contingut. */
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    background-image: url('https://preview.redd.it/really-wished-piccolos-aura-farming-pose-becomes-an-v0-9o3iaslztojf1.jpeg?auto=webp&s=2cfe0e764ad92b5c7582921ca5f6f9802834c116'), url('https://i1.sndcdn.com/artworks-5yShGRgIpH82hdc9-3J71ow-t500x500.jpg');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 150px;
+}
+
+.parallax-bemen {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGgGNwzP2KdbG1C4SjYNC7hsfapJOAR4Ltyg&s');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.parallax-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.boton-personalizado {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.boton-personalizado:hover {
+    transform: translateY(-3px) scale(1.05);
+    background-color: #e68a00;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.contenedor {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pelicula {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.rgba {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.bg-extra {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pos-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('img3.jpg');
+}
+
+.pos-top-right {
+    top: 20px;
+    right: 20px;
+    background-image: url('img4.jpg');
+}
+
+.pos-random {
+    top: 15%;
+    left: 75%;
+    background-image: url('img5.jpg');
+}

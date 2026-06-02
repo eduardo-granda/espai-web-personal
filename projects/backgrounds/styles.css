@@ -1,0 +1,38 @@
+/* Etiquetas del background proporcionadas por ChatGPT */
+body {
+    background-image: url(https://i.blogs.es/be5310/dragon-ball-super-the-galactic-patrol/500_333.jpeg);
+    font-family: Verdana;
+}
+
+/* etiqueta margin en el styles del CSS proporcionada gracias a ChatGPT */
+.contenedor {
+    width: 700px;
+    margin: auto;
+}
+
+.titulo {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.pelicula {
+    background-color: gray;
+    padding: 10px;
+    color: rgb(247, 247, 247);
+    font-size: 40px;
+}
+
+/* La etiqueta opacity afecta a todo el elemento incluyendo su contenido */
+.opacity {
+    background-color: rgb(0, 0, 255);
+    opacity: 0.7;
+}
+
+/* La etiqueta rgba afecta solo al fondo, no al contenido */
+.rgba {
+    background-color: rgba(16, 133, 65, 0.712);
+}

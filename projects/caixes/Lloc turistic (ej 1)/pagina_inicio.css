@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Ejemplo claro de Modelo de Cajas */
+.caja-titulo {
+    background-color: white;
+    margin: 10px auto;
+    /* MARGIN */
+    border: 3px solid red;
+    /* BORDER */
+    padding: 20px;
+    /* PADDING */
+    width: 50%;
+    /* CONTENT WIDTH */
+}
+
+.caja-menu {
+    background-color: #ddd;
+    margin: 20px 0;
+    /* Espacio arriba y abajo */
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.caja-menu a {
+    margin: 0 15px;
+    /* Separación entre enlaces */
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.caja-info {
+    background-color: white;
+    margin: 20px auto;
+    border: 1px dashed gray;
+    padding: 40px;
+    /* Caja con mucho aire interno */
+    width: 70%;
+}
+
+.caja-footer {
+    margin-top: 50px;
+    padding: 10px;
+    border-top: 2px solid #ccc;
+    font-size: 0.8em;
+}

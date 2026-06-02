@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.header-box {
+    background-color: #e10600;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-bottom: 5px solid #333;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.noticia-box {
+    background-color: white;
+    margin: 20px 0;
+    padding: 25px;
+    border: 2px solid #ccc;
+    border-left: 10px solid #e10600;
+
+    border-radius: 8px;
+}
+
+#destacat {
+    border: 3px solid #ffba00;
+    background-color: #fff9e6;
+    padding: 30px;
+}

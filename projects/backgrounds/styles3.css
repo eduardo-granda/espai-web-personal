@@ -1,0 +1,44 @@
+/* Se ha usado la inteligencia artificial (Gemini en este caso) para generar etiquetas que ayuden a la mejora visual del contenido */
+.lugar {
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+#img1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg/960px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+#img2 {
+    background-image: url(https://www.tresestrellascampings.com/wp-content/uploads/sebastian-pichler-oqfhlflftmc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img3 {
+    background-image: url(https://gironatrips.com/wp-content/uploads/2019/04/Calella-de-Palafrugell.-Francesc-Tur.-Arxiu-Imatges-PTCBG-e1737978640788.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#img4 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/20061227-Figueres_Teatre-Museu_Dal%C3%AD_MQ.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+}
+
+#img5 {
+    background-image: url(https://www.ccparccentral.com/wp-content/uploads/2022/08/playas-y-calas-tarragona-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 33% 70%;
+}
